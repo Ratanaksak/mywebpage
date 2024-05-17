@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='youtubestyle.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+{% include 'header.html' %}
+<body>
+        
+    <div class="container">
+        <h2>Download MP4</h2>
+        <form action="/download1" method="post">
+            <label for="url">Enter YouTube Video URL:</label><br>
+            <input type="text" id="url" name="url" required><br>
+            <label for="resolution">Select Resolution:</label><br>
+            <select id="resolution" name="resolution">
+                <option value="highest">Highest</option>
+                <option value="720p">720p</option>
+                <option value="480p">480p</option>
+                <option value="360p">360p</option>
+            </select><br>
+            <input type="submit" value="Download MP4">
+        </form>
+        <h2>Convert to MP3</h2>
+        <form action="/convert1" method="post">
+            <label for="url">Enter YouTube Video URL:</label><br>
+            <input type="text" id="url" name="url" required><br>
+            <input type="submit" value="Convert to MP3">
+        </form>
+    </div>
+    
+    <div class="footer">
+        <p>Footer content goes here.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* Slider container */
+.slider {
+  position: relative;
+  width: 150%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Slide container */
+.slides {
+  display: flex;
+  transition: transform 1s ease; /* Add transition for smooth slide effect */
+}
+
+/* Individual slide */
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Navigation buttons */
+button1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  z-index: 1;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Navigation button hover effect */
+button1:hover {
+  background: rgba(0, 0, 0, 0.7);
+}

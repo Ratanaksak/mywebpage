@@ -1,0 +1,46 @@
+<div class="container mt-3">
+<h1 style="text-align: center;">Free YouTube to MP4 converter</h1>
+  <div class="card img-fluid" style="width:350px">
+    <img class="card-img-top" src="../static/youtube-logo.jpg" alt="Card image" style="width:100%" ,>
+    <div class="card-img-overlay">
+      <h1 class="card-title" style="-webkit-text-fill-color: aliceblue;">Youtube Converter</h1>
+      
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+
+  </div>
+</div>
+
+<div class="container mt-4">
+        
+        <div class="card img-fluid" style="width:350px">
+      <img class="card-img-top" src="../static/pdfcoverter.jpg" alt="Card image" style="width:100%">
+      <div class="card-img-overlay">
+        <h1 class="card-title" style="-webkit-text-fill-color: black;">PDF Converter</h1>
+        
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="card img-fluid" style="width:350px">
+  <img class="card-img-top" src="../static/videoconverter.jpg" alt="Card image" style="width:100%">
+  <div class="card-img-overlay">
+    <h4 class="card-title" style="-webkit-text-fill-color: aliceblue;">John Doe</h4>
+    
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div>
+<div class="container mt-4">
+    <div class="card img-fluid" style="width:350px">
+  <img class="card-img-top" src="../static/videoconverter.jpg" alt="Card image" style="width:100%">
+  <div class="card-img-overlay">
+    <h4 class="card-title" style="-webkit-text-fill-color: aliceblue;">John Doe</h4>
+    
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div>
+

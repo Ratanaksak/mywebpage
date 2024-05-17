@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Text color */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the header with transparency */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the footer with transparency */
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the container with transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #ffffff; /* Heading color */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the header with transparency */
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; /* Clear floats */
+}
+
+.header img {
+    max-width: 10%; /* Set the maximum width of the logo to 100% of its container */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    float: left ; /* Position the logo on the left */
+    margin-right: -100px; /* Add some margin to the right for spacing */
+}
+
+.header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative; /* Position for the pseudo-element */
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the position of the line */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Height of the line */
+    background-color: #ffffff; /* Color of the line */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+

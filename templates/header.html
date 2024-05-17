@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    
+    <style>
+        /* Basic CSS styles for the header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: -10px;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+            <li style="float:right"><a class="active" href="/">login</a></li>
+            <li style="float:right"><a class="active" href="/register">register</a></li>
+          </ul> 
+    </header>
+</body>
+</html>
